@@ -32,8 +32,6 @@ set(CORE_SOURCES
     core/keyword_normalizer.cpp
     core/typesystem.cpp
     core/repl.cpp
-    core/module_system.cpp
-    core/async_system.cpp
     core/ind_package_manager.cpp
 )
 
