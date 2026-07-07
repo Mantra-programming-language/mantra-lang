@@ -32,7 +32,6 @@ set(CORE_SOURCES
     core/keyword_normalizer.cpp
     core/typesystem.cpp
     core/repl.cpp
-    core/ind_package_manager.cpp
 )
 
 set(COMPILER_SOURCES
@@ -40,7 +39,7 @@ set(COMPILER_SOURCES
 )
 
 set(VM_SOURCES
-    vm/vm.cpp
+    src/vm/vm.cpp
 )
 
 set(STDLIB_SOURCES
