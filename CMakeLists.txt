@@ -24,17 +24,14 @@ endif()
 
 # Source files
 set(CORE_SOURCES
-    core/main.cpp
+    main.cpp
     core/lexer.cpp
     core/parser.cpp
     core/interpreter.cpp
-    core/semantic_analyzer.cpp
+    semantic/semantic_analyzer.cpp
     core/keyword_normalizer.cpp
     core/typesystem.cpp
     core/repl.cpp
-    core/module_system.cpp
-    core/async_system.cpp
-    core/ind_package_manager.cpp
 )
 
 set(COMPILER_SOURCES
@@ -42,7 +39,7 @@ set(COMPILER_SOURCES
 )
 
 set(VM_SOURCES
-    vm/vm.cpp
+    src/vm/vm.cpp
 )
 
 set(STDLIB_SOURCES
