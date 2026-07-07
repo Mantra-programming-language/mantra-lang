@@ -24,7 +24,7 @@ endif()
 
 # Source files
 set(CORE_SOURCES
-    core/main.cpp
+    main.cpp
     core/lexer.cpp
     core/parser.cpp
     core/interpreter.cpp
