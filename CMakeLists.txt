@@ -28,7 +28,7 @@ set(CORE_SOURCES
     core/lexer.cpp
     core/parser.cpp
     core/interpreter.cpp
-    core/semantic_analyzer.cpp
+    semantic/semantic_analyzer.cpp
     core/keyword_normalizer.cpp
     core/typesystem.cpp
     core/repl.cpp
